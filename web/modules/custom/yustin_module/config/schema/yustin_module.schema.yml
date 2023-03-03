@@ -1,0 +1,8 @@
+# Schema for the configuration files of the yustin-module module.
+yustin_module.settings:
+  type: config_object
+  label: 'yustin-module settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

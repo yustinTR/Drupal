@@ -1,0 +1,6 @@
+yustin_module.settings_form:
+  title: 'yustin-module'
+  description: 'Configure yustin-module.'
+  parent: system.admin_config_system
+  route_name: yustin_module.settings_form
+  weight: 10

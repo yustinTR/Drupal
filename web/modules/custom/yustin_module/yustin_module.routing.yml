@@ -1,0 +1,15 @@
+yustin_module.example:
+  path: '/yustin-module/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\yustin_module\Controller\YustinModuleController::build'
+  requirements:
+    _permission: 'access content'
+
+yustin_module.settings_form:
+  path: '/admin/config/system/yustin-module'
+  defaults:
+    _title: 'yustin-module settings'
+    _form: 'Drupal\yustin_module\Form\SettingsForm'
+  requirements:
+    _permission: 'administer yustin_module configuration'
